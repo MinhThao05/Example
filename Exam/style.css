@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+/* .box {
+  display: block;
+} */
+.abc {
+  display: flex;
+  gap: 15px;
+}
+#email,
+#password {
+  width: 720px;
+  height: 30px;
+}
+#address,
+#address1 {
+  width: 1460px;
+  height: 30px;
+}
+#city,
+#state,
+#zip {
+  height: 30px;
+}
+#city {
+  width: 730px;
+}
+#state {
+  width: 450px;
+  height: 35px;
+}
+#zip {
+  width: 240px;
+}
+#checkout {
+  background-color: blue;
+  color: white;
+  width: 70px;
+  height: 35px;
+}
+.box3 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.checkboxem,
+.box3,
+.btcheck {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <h1>Complex form</h1>
+        <div class="abc">
+          <span class="box">
+            <p>Email</p>
+            <input type="text" id="email" placeholder="Email" required />
+          </span>
+
+          <span class="box">
+            <p>Password</p>
+            <input type="text" id="password" placeholder="Password" required />
+          </span>
+        </div>
+        <p>Address</p>
+        <input
+          type="text"
+          name="address"
+          id="address"
+          placeholder="1234 Main St"
+          required
+        />
+        <p>Address 2</p>
+        <input
+          type="text"
+          name="address1"
+          id="address1"
+          placeholder="Apartment, studio, or floor"
+          required
+        />
+        <div class="abc">
+          <span class="box">
+            <p>City</p>
+            <input type="text" id="city" name="city" required />
+          </span>
+          <span class="box">
+            <p>State</p>
+            <select name="state" id="state">
+              <option value="text" id="state">Choose...</option>
+            </select>
+          </span>
+
+          <span class="box">
+            <p>Zip</p>
+            <input type="text" name="zip" id="zip" required />
+          </span>
+        </div>
+        <div class="box3">
+          <span class="checkboxem">
+            <input type="checkbox" id="checkMeOut" required />
+            <label for="checkmeout">Check me out</label>
+          </span>
+          <span class="btcheck"><input type="submit" id="checkout" /></span>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
